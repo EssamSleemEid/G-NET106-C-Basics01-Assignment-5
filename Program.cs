@@ -47,6 +47,14 @@ namespace fourth_assignment
             //Console.WriteLine(book01.Genre);
             #endregion
 
+            #region Question5
+            //Using the Genre enum above, print the underlying int value of Genre.Fiction, Genre.NonFiction, and Genre.Science by casting each to int.
+
+            //Console.WriteLine((int)Genre.Science);
+            //Console.WriteLine((int)Genre.Fiction);
+            //Console.WriteLine((int)Genre.NonFiction);
+            #endregion
+
 
         }
     }
