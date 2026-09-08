@@ -4,11 +4,18 @@ namespace fourth_assignment
 {
     internal class Program
     {
+        enum Genre
+        {
+            Fiction,
+            NonFiction,
+            Science
+        }
         class book
         {
             private string password = "secret";
             internal int copiesInStock = 5;
             public string Title = "essam sleem";
+            public Genre Genre;
         }
         static void Main(string[] args)
         {
@@ -31,6 +38,13 @@ namespace fourth_assignment
 
             //book book01 = new book();
             //Console.WriteLine(book01.Title);
+            #endregion
+            #region Question4
+            //Declare an enum Genre { Fiction, NonFiction, Science }. Add a Genre property to Book, assign it Genre.Science, and print it.
+
+            //book book01 = new book();
+            //book01.Genre = Genre.Science;
+            //Console.WriteLine(book01.Genre);
             #endregion
 
 
