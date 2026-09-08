@@ -55,6 +55,16 @@ namespace fourth_assignment
             //Console.WriteLine((int)Genre.NonFiction);
             #endregion
 
+            #region Question6
+            //Given int genreNumber = 1;, cast it into a Genre value and print the result.
+
+            //int genreNumber = 1;
+            //Genre genre01 = new Genre();
+            //genre01 = (Genre)genreNumber;
+            #endregion
+
+
+
 
         }
     }
